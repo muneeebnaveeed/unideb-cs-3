@@ -17,10 +17,47 @@ This repository serves as:
 
 ## 📖 How to Use This Repository
 
-1. **Browse by Course**: Navigate to the course you're interested in
-2. **Lab Notes**: Each lab contains detailed notes with concepts, examples, and resources
-3. **Code Examples**: Practical implementations and exercises
-4. **Resources**: Links to external documentation and helpful tools
+### Viewing Notes Online (GitHub)
+
+1. **Browse by Course**: Navigate to the course you're interested in using the Quick Navigation table below
+2. **View Lab Notes**: Each lab contains detailed notes with concepts, examples, and resources
+3. **Read Markdown Files**: All notes are written in Markdown and render beautifully on GitHub
+4. **Access Resources**: Links to external documentation and helpful tools are included throughout
+
+### Viewing Notes Locally (VSCode)
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/muneeebnaveeed/unideb-cs-3.git
+   cd unideb-cs-3
+   ```
+
+2. **Open in VSCode**:
+
+   ```bash
+   code .
+   ```
+
+3. **Install Markdown Extension**:
+
+   - Install **Markdown Preview Github Styling** by bierner
+   - This extension provides GitHub-style rendering for better note viewing
+
+4. **Preview Notes**:
+
+   - Press `Ctrl+Shift+P` to open the command palette
+   - Type and run `Markdown: Open Preview`
+   - This opens a side-by-side preview of your notes with GitHub styling
+
+5. **Navigate Notes**: Use the table of contents in each README file to quickly jump to specific sections
+
+### Repository Structure
+
+- **Course-Level READMEs**: Overview and navigation for each course
+- **Lab Notes**: Comprehensive notes with concepts, examples, and code snippets
+- **Code Examples**: Practical implementations and exercises
+- **Resources**: Links to external documentation and helpful tools
 
 ## 🔗 Quick Navigation
 

@@ -8,11 +8,11 @@
 
 ### Course Resources
 
-- **Course Website**: https://arato.inf.unideb.hu/jeszenszky.peter/webtech/
-- **Learning Management System**: https://elearning.unideb.hu/mod/book/view.php?id=155474
+- **Course Website**: [https://arato.inf.unideb.hu/jeszenszky.peter/webtech/](https://arato.inf.unideb.hu/jeszenszky.peter/webtech/){:target="\_blank"}
+- **Learning Management System**: [https://elearning.unideb.hu/mod/book/view.php?id=155474](https://elearning.unideb.hu/mod/book/view.php?id=155474){:target="\_blank"}
 
 ## 🔗 Quick Navigation
 
-| Lab                        | Topic                         | Notes                           |
-| -------------------------- | ----------------------------- | ------------------------------- |
-| [Lab 2](./lab-2/README.md) | XML, DTD, and CSS Integration | [View Notes](./lab-2/README.md) |
+| Lab   | Topic                         | Notes                           |
+| ----- | ----------------------------- | ------------------------------- |
+| Lab 2 | XML, DTD, and CSS Integration | [View Notes](./lab-2/README.md) |
