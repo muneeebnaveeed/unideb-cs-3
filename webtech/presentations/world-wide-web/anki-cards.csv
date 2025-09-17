@@ -1,0 +1,375 @@
+# ANKI Flash Cards - Web Technologies: World Wide Web (Slides 1-10) - CSV Format
+
+Where was the World Wide Web born?;The World Wide Web was born in CERN.
+
+Who created both the idea and implementation of the World Wide Web?;Tim Berners-Lee (TBL) created both the idea and implementation of the World Wide Web.
+
+What was the title of Tim Berners-Lee's original proposal in March 1989?;Information Management: A Proposal
+
+What did Tim Berners-Lee recommend to CERN?;He recommended a hypertext information system to CERN.
+
+What was the name of the first web server created by TBL?;CERN httpd (created December 24, 1990)
+
+What was the name of the first web browser and HTML editor created by TBL?;WorldWideWeb (created December 25, 1990)
+
+What does HTML stand for?;HTML stands for HyperText Markup Language.
+
+What does HTTP stand for?;HTTP stands for HyperText Transfer Protocol.
+
+What does URI stand for and what was it originally called?;URI stands for Universal Resource Identifier. It was originally called UDI (Universal Document Identifier).
+
+What was the first public website and when was it launched?;The first public website was http://info.cern.ch/ launched on August 6, 1991.
+
+What are the three original cornerstones of the Web idea?;1. Identifying resources by global identifiers (URIs), 2. Client-server model, 3. Hypertext markup language (HTML)
+
+What is the World Wide Web according to contemporary architecture?;The World Wide Web is an information space in which the items of interest (referred to as resources) are identified by URIs.
+
+What is a resource in web architecture?;A resource is anything that might be identified by a URI.
+
+What is an information resource?;An information resource is a resource which has the property that all of its essential characteristics can be conveyed in a message.
+
+What is a URI in the context of the Web?;A Uniform Resource Identifier (URI) is a global identifier in the context of the Web.
+
+What is a representation in web architecture?;A representation is data that encodes information about resource state.
+
+What is content negotiation?;Content negotiation is offering multiple representations for a resource and selecting the one that is the most appropriate when a representation must be served.
+
+What is dereferencing a URI?;Dereferencing a URI is using a URI to access the referenced resource.
+
+What are the different forms that accessing a resource through dereferencing may take?;Access may take many forms, including retrieving, adding, or modifying a representation of the resource, and deleting some or all representations of the resource.
+
+What is a web agent?;A web agent is a person or a piece of software acting on the Web on behalf of a person, entity, or process.
+
+What is an example of a web agent?;A web crawler is an example of a web agent.
+
+What is a user agent?;A user agent is one type of Web agent, a piece of software acting on behalf of a person.
+
+What is an example of a user agent?;A web browser is an example of a user agent.
+
+According to the contemporary W3C architecture document, is the client-server model mentioned?;No, the client-server model is not mentioned at all in the W3C architecture text.
+
+When was the first web server CERN httpd created?;December 24, 1990
+
+When was the first web browser WorldWideWeb created?;December 25, 1990
+
+What organization was responsible for the birth of the World Wide Web?;CERN
+
+Who co-authored the WorldWideWeb proposal with Tim Berners-Lee in November 1990?;Robert Cailliau
+
+What was the original name for URI?;UDI (Universal Document Identifier)
+
+What is the URL for Tim Berners-Lee's biography on W3C?;https://www.w3.org/People/Berners-Lee/
+
+What is the URL for the first website restoration project?;https://first-website.web.cern.ch/first-website/
+
+What is the URL for comprehensive web history?;https://thehistoryoftheweb.com/
+
+What is the title of the W3C architecture document from December 2004?;Architecture of the World Wide Web, Volume One
+
+What does TBL stand for?;Tim Berners-Lee
+
+What was the original purpose of the web according to TBL's proposal?;To create a hypertext information system for CERN
+
+How many original cornerstones formed the basis of the Web idea?;Three cornerstones
+
+What type of identifier does the Web use to identify resources?;Global identifiers (URIs)
+
+Can all essential characteristics of an information resource be conveyed in a message?;Yes, all essential characteristics can be conveyed in a message.
+
+What does data that encodes information about resource state represent?;A representation
+
+What is the process of offering multiple representations for a resource called?;Content negotiation
+
+What happens when you use a URI to access a referenced resource?;Dereferencing a URI
+
+Can dereferencing a URI involve deleting representations?;Yes, it can involve deleting some or all representations of the resource.
+
+What acts on the Web on behalf of a person, entity, or process?;A web agent
+
+What type of software is a web browser considered to be?;A user agent
+
+What type of software is a web crawler considered to be?;A web agent
+
+What are the three architectural bases of the Web?;Identification, Interaction, and Data Formats
+
+How are resources identified in the Web architecture?;Resources are identified by global identifiers called URIs
+
+How do web agents communicate?;Web agents communicate using standardized protocols that enable interaction through the exchange of messages
+
+What are examples of web protocols?;HTTP, HTTPS, and WebDAV
+
+What can a message include?;A message may include data as well as metadata about a resource, the message data, and the message itself
+
+What limits the formats of representation data and metadata that can be transmitted?;The choice of interaction protocol places limits on the formats of representation data and metadata that can be transmitted
+
+Does the Web itself constrain the data formats that can be used by content providers?;No, the Web itself does not constrain the data formats that can be used by content providers
+
+What is required for a data format to be usefully interoperable between two parties?;The parties must agree (to a reasonable extent) about its syntax and semantics
+
+What is a standard?;A standard is a document that provides requirements, specifications, guidelines or characteristics that can be used consistently to ensure that materials, products, processes and services are fit for their purpose
+
+What are the three types of standards by origin?;De facto standards, De jure standards, and Voluntary consensus standards
+
+What are de facto standards?;De facto standards arise from common usage or market acceptance
+
+What are examples of de facto standards?;The QWERTY keyboard layout, TeX, PDF (before 2008)
+
+What are de jure standards?;De jure standards are mandated by regulators at the local, state, federal, and/or international level
+
+What are examples of de jure standards?;International System of Units (SI), PDF (from 2008)
+
+What are voluntary consensus standards?;Voluntary consensus standards are specified within a range of private institutions, including engineering societies, trade associations, accredited standards-setting organizations, and industry consortia
+
+What are examples of voluntary consensus standards?;The Internet protocol suite (commonly known as TCP/IP), HTML, CSS
+
+Is there a single, universally accepted definition of open standard?;No, there is no single, universally accepted definition
+
+What is an open standard in general?;An open standard is a standard that is freely available for use and adoption to anyone
+
+How are open standards typically developed?;Open standards are typically developed via a collaborative process
+
+What organizations are responsible for web standards?;Ecma International, ISO, IETF, Unicode Consortium, WHATWG, W3C
+
+What does Ecma International do?;Ecma International is responsible for web standards
+
+What does ISO stand for?;International Organization for Standardization
+
+What does IETF stand for?;Internet Engineering Task Force
+
+What does WHATWG stand for?;Web Hypertext Application Technology Working Group
+
+What does W3C stand for?;World Wide Web Consortium
+
+What does IANA stand for?;Internet Assigned Numbers Authority
+
+What is IANA's purpose?;IANA coordinates the allocation of codes and numbers that form the basis for the operation of the Internet
+
+What domains does IANA manage?;IANA manages the DNS root zone, and the .int and .arpa domains
+
+What does IANA coordinate globally?;IANA coordinates the allocation of IP addresses globally
+
+What registries does IANA maintain?;IANA maintains registries of codes and numbers used in a variety of Internet protocols
+
+Who currently performs the IANA function?;IANA is a function that is currently performed by ICANN (Internet Corporation for Assigned Names and Numbers)
+
+What type of organization is ICANN?;ICANN is a not-for-profit corporation
+
+What is IETF?;IETF is an international standards organization developing Internet standards
+
+What does IETF develop?;IETF develops the Internet protocol suite (commonly known as TCP/IP)
+
+Does IETF have formal membership?;No, the IETF has no formal membership, no membership fee, participation is open to anyone
+
+How is the technical work done in IETF?;The technical work is done in working groups
+
+When was IETF formed?;IETF was formed in 1986
+
+What does IETF publish?;IETF publishes Internet standards-related specifications in the RFC series of documents
+
+What does RFC stand for?;Request for Comments
+
+What does the RFC series contain?;The RFC series contains technical and organizational documents about the Internet
+
+When did the RFC series begin?;The RFC series began in 1969 as part of ARPANET project
+
+Who wrote the first RFC?;Steve Crocker wrote the first RFC
+
+What was the title of the first RFC?;Host Software
+
+When was RFC 1 published?;RFC 1 was published on 7 April 1969
+
+Who edits, publishes, and catalogs RFCs?;The RFC Editor edits, publishes, and catalogs RFCs
+
+What is the RFC Editor website?;https://www.rfc-editor.org/
+
+How many streams is the RFC series split into by origin?;The RFC series is split into four streams
+
+What are the four RFC streams by origin?;The Internet Engineering Task Force (IETF) Stream, The Internet Architecture Board (IAB) Stream, The Internet Research Task Force (IRTF) Stream, and The Independent Submission Stream
+
+What does IAB stand for?;Internet Architecture Board
+
+What does IRTF stand for?;Internet Research Task Force
+
+What is RFC 8729 about?;RFC 8729 is about The RFC Series and RFC Editor
+
+When was RFC 8729 published?;RFC 8729 was published in February 2020
+
+How is each RFC identified?;Each RFC is identified by a number, such as RFC 9110
+
+What are the two main formats in which RFCs are available?;RFCs are available in ASCII text and HTML formats
+
+What is the complete list of all RFCs?;https://www.rfc-editor.org/rfc-index.html
+
+Do published RFCs ever change?;No, published RFCs never change
+
+How are various errors in RFCs fixed?;Various errors are fixed by errata
+
+How can amendments be made to RFCs?;Amendments can be made by writing and publishing a revised RFC
+
+Can an RFC obsolete or update earlier RFCs?;Yes, an RFC can obsolete or update earlier RFCs
+
+What is an example of HTTP protocol evolution through RFCs?;RFC 2068 → RFC 2616 → RFC 7230 → RFC 9110
+
+What does BCP stand for?;BCP stands for Best Current Practice
+
+What do BCPs document?;BCPs document guidelines, processes, or the operation of the IETF itself
+
+What is the BCP Index URL?;https://www.rfc-editor.org/rfc/bcp/
+
+What does STD stand for?;STD stands for Internet Standard
+
+What is the STD Index URL?;https://www.rfc-editor.org/rfc/std/
+
+How are BCPs and STDs numbered?;BCPs and STDs are assigned a number in their subseries while retaining their RFC number
+
+What is BCP 9, RFC 2026 about?;BCP 9, RFC 2026 is about The Internet Standards Process – Revision 3
+
+When was BCP 9, RFC 2026 published?;BCP 9, RFC 2026 was published in October 1996
+
+What is STD 66, RFC 3986 about?;STD 66, RFC 3986 is about Uniform Resource Identifier (URI): Generic Syntax
+
+When was STD 66, RFC 3986 published?;STD 66, RFC 3986 was published in January 2005
+
+Can several RFCs share the same BCP or STD number?;Yes, several RFCs may share the same BCP or STD number
+
+What does an STD number identify?;An STD number identifies a standard not a document
+
+What is the Standards Track?;The Standards Track is the set of maturity levels of RFCs that are intended to become Internet Standards
+
+What were the original three maturity levels?;The original maturity levels were Proposed Standard, Draft Standard, and Internet Standard
+
+What are the current maturity levels?;The current maturity levels are Proposed Standard and Internet Standard
+
+What is RFC 6410 about?;RFC 6410 is about Reducing the Standards Track to Two Maturity Levels
+
+When was RFC 6410 published?;RFC 6410 was published in October 2011
+
+What is an Internet-Draft?;An Internet-Draft is a draft version of a specification made available for informal review and comment during development
+
+Are Internet-Drafts guaranteed to be published as RFCs?;No, Internet-Drafts may or may not eventually be published as an RFC
+
+How long is an Internet-Draft valid?;An Internet-Draft is valid for a maximum of six months
+
+How should Internet-Drafts be cited?;Internet-Drafts should not be cited or quoted in any formal document, except as "work in progress"
+
+What is the tradition regarding RFCs on April 1?;On nearly every April 1 since 1989, one or more funny RFCs has been published
+
+What year did the April Fools' Day RFC tradition begin?;The April Fools' Day RFC tradition began in 1989
+
+What is RFC 4824 about?;RFC 4824 is about The Transmission of IP Datagrams over the Semaphore Flag Signaling System (SFSS)
+
+When was RFC 4824 published?;RFC 4824 was published on April 1, 2007
+
+What does W3C stand for?;W3C stands for World Wide Web Consortium
+
+What is the W3C?;The W3C is an international community where member organizations, a full-time staff, and the public work together to develop open web standards
+
+What is the W3C website?;https://www.w3.org/about/
+
+What documents does W3C publish?;W3C publishes documents called Recommendations that define Web technologies and are considered Web standards
+
+What is the W3C standards page?;https://www.w3.org/standards/
+
+What are the two main W3C design principles?;Web for All and Web on Everything
+
+What does "Web for All" mean?;The Web must be available to all people, whatever their hardware, software, network infrastructure, native language, culture, geographical location, or physical or mental ability
+
+What are the related concepts to "Web for All"?;Web accessibility and internationalization
+
+What does "Web on Everything" mean?;The Web must be accessible from a wide variety of devices
+
+What are examples of devices for "Web on Everything"?;Mobile phones, smart phones, interactive television systems, domestic appliances
+
+When was W3C founded?;W3C was founded at MIT in October 1994
+
+Who is the director of W3C?;Tim Berners-Lee, the inventor and creator of the Web, is the director of W3C
+
+How many recommendations has W3C published since 1996?;W3C has published more than 300 recommendations since 1996
+
+What was published in October 1996?;PNG (Portable Network Graphics) Specification Version 1.0
+
+What was published in December 1996?;Cascading Style Sheets, level 1
+
+What was published in February 1998?;Extensible Markup Language (XML) 1.0
+
+What was published in April 1998?;Mathematical Markup Language (MathML) 1.0 Specification
+
+What does PNG stand for?;PNG stands for Portable Network Graphics
+
+What does XML stand for?;XML stands for Extensible Markup Language
+
+What does MathML stand for?;MathML stands for Mathematical Markup Language
+
+What was published in October 1998?;Document Object Model (DOM) Level 1 Specification
+
+What does DOM stand for?;DOM stands for Document Object Model
+
+What was published in November 1999?;XSL Transformations (XSLT) Version 1.0
+
+What does XSLT stand for?;XSLT stands for XSL Transformations
+
+What was published in December 1999?;HTML 4.01 Specification
+
+What was published in January 2000?;XHTML 1.0: The Extensible HyperText Markup Language
+
+What was published in May 2001?;XHTML 1.1 – Module-based XHTML
+
+What was published in October 2004?;XML Schema
+
+What was published in June 2011?;Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
+
+What was published in September 2011?;Selectors Level 3
+
+What was published in June 2012?;Media Queries
+
+What was published in October 2014?;HTML5 – A vocabulary and associated APIs for HTML and XHTML
+
+What was published in December 2019?;WebAssembly Core Specification
+
+What was published in April 2020?;Web of Things (WoT) Architecture
+
+What does WoT stand for?;WoT stands for Web of Things
+
+What was published in January 2021?;WebRTC 1.0: Real-Time Communication Between Browsers
+
+What does WebRTC stand for?;WebRTC stands for Web Real-Time Communication
+
+What was published in April 2022?;Media Queries Level 3
+
+What was published in May 2023?;EPUB 3.3
+
+What does EPUB stand for?;EPUB stands for Electronic Publication
+
+What was published in August 2024?;Geolocation
+
+How many members does W3C currently have?;W3C currently has 347 Members from around the world (September 5, 2025)
+
+What is the W3C membership list URL?;https://www.w3.org/membership/list/
+
+What are some notable W3C members?;Adobe, Amazon, Apple, CERN, Google, IBM, Intel, Meta, Microsoft, SZTAKI
+
+What are W3C Chapters?;W3C Chapters are geographic or interest-based communities of individuals interested in W3C's activities
+
+What is the W3C Chapters website?;https://chapters.w3.org/
+
+What is the Hungary Chapter website?;https://chapters.w3.org/hungary/
+
+How is W3C development carried out?;Development is carried out by working groups
+
+What deliverables are produced by W3C working groups?;Technical reports, test suites, and open source software
+
+How many working groups does W3C currently have?;W3C currently has 45 working groups (September 5, 2025)
+
+What is the W3C working groups list URL?;https://www.w3.org/groups/wg/
+
+What are the three types of experts in W3C working groups?;A member of the W3C Team, an individual representing a member organization, and an individual participating as an invited expert
+
+What is the Cascading Style Sheets Working Group URL?;https://www.w3.org/Style/CSS/members
+
+What is the HTML Working Group URL?;https://www.w3.org/groups/wg/htmlwg/
+
+What is the Internationalization Working Group URL?;https://www.w3.org/International/i18n-activity/i18n-wg/
+
+What is the Web Applications Working Group URL?;https://www.w3.org/groups/wg/webapps/
+
+What is the Web Machine Learning Working Group URL?;https://www.w3.org/groups/wg/webmachinelearning/
