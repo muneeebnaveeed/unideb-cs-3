@@ -8,8 +8,8 @@
 
 ### Course Resources
 
-- **Course Website**: <a href="https://arato.inf.unideb.hu/jeszenszky.peter/webtech/" target="_blank">https://arato.inf.unideb.hu/jeszenszky.peter/webtech/</a>
-- **Learning Management System**: <a href="https://elearning.unideb.hu/mod/book/view.php?id=155474" target="_blank">https://elearning.unideb.hu/mod/book/view.php?id=155474</a>
+- **Course Website**: [https://arato.inf.unideb.hu/jeszenszky.peter/webtech/](https://arato.inf.unideb.hu/jeszenszky.peter/webtech/)
+- **Learning Management System**: [https://elearning.unideb.hu/mod/book/view.php?id=155474](https://elearning.unideb.hu/mod/book/view.php?id=155474)
 
 ## 🔗 Quick Navigation
 

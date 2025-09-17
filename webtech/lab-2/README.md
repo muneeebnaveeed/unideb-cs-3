@@ -80,7 +80,7 @@ Document Type Definition defines the structure, elements, attributes, and rules 
 ### XML vs CSS Differences
 
 - **XML**: Uses arbitrary, user-defined tags
-- **CSS**: Uses fixed set of ~600-700 selectors (verify at <a href="https://caniuse.com" target="_blank">caniuse.com</a>)
+- **CSS**: Uses fixed set of ~600-700 selectors (verify at [caniuse.com](https://caniuse.com))
 - **Browser Compatibility**: Not all CSS properties work the same in every browser
 
 ### Linking CSS to XML
@@ -126,7 +126,7 @@ Elements have four areas:
 
 - **Font Family**: Use fallback fonts and web-safe fonts
 - **Font Variants**: `font-variant: small-caps` for small capital letters
-- **Font Resources**: Check <a href="https://modernfontstacks.com" target="_blank">modernfontstacks.com</a> for good font combinations
+- **Font Resources**: Check [modernfontstacks.com](https://modernfontstacks.com) for good font combinations
 
 #### Units
 
@@ -176,7 +176,7 @@ Use Emmet abbreviations for quick property insertion:
 
 ## Resources
 
-- <a href="https://caniuse.com" target="_blank">Can I Use</a> - Browser compatibility checker
-- <a href="https://modernfontstacks.com" target="_blank">Modern Font Stacks</a> - Font combination recommendations
-- <a href="https://docs.emmet.io" target="_blank">Emmet Documentation</a> - Complete Emmet reference
-- <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model" target="_blank">CSS Box Model</a> - MDN documentation
+- [Can I Use](https://caniuse.com) - Browser compatibility checker
+- [Modern Font Stacks](https://modernfontstacks.com) - Font combination recommendations
+- [Emmet Documentation](https://docs.emmet.io) - Complete Emmet reference
+- [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model) - MDN documentation
