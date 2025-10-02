@@ -1,0 +1,10 @@
+- Installing IDEA Community Server.
+- Using IDEA generators for convenient and quick code generations.
+- What are classes in Java.
+- Private and protected variables in Java classes.
+- Class constructors.
+- Multiple class constructors in a single class.
+- Class inheritance (super classes, sub classes)
+- Method Overrides (and other) in Java
+- Class hierarchy (what every Java extends automatically) and documentation for those super classes.
+- toString method

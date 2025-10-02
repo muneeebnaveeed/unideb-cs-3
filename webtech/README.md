@@ -13,7 +13,7 @@
 
 ## 🔗 Quick Navigation
 
-| Lab   | Topic                         | Notes                           | Flash Cards                     |
-| ----- | ----------------------------- | ------------------------------- | ------------------------------- |
-| Lab 2 | XML, DTD, and CSS Integration | [View Notes](./lab-2/README.md) | -                               |
-| Presentation | World Wide Web | [View Notes](./presentations/world-wide-web/notes.md) | [Flash Cards](./presentations/world-wide-web/anki-cards.csv) |
+| Lab          | Topic                         | Notes                                                 | Flash Cards                                                  |
+| ------------ | ----------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| Lab 2        | XML, DTD, and CSS Integration | [View Notes](./lab-2/README.md)                       | -                                                            |
+| Presentation | World Wide Web                | [View Notes](./presentations/world-wide-web/notes.md) | [Flash Cards](./presentations/world-wide-web/anki-cards.csv) |

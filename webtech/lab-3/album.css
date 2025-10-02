@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+album {
+  width: fit-content;
+  margin: 2em auto;
+  font-family: "Segoe UI", Inter, Arial, sans-serif;
+  padding: 1em;
+  line-height: 1.5;
+  border: 1px solid black;
+  border-radius: 1em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5);
+}
+
+artist,
+album > title,
+year {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+album > artist::after {
+  content: " - ";
+}
+
+year::before {
+  content: "(";
+}
+
+year::after {
+  content: ")";
+}
+
+tracks {
+  margin-top: 0.5em;
+  display: table;
+  width: 100%;
+  counter-reset: track-number;
+}
+
+track {
+  display: table-row;
+  transition: background-color, font-weight 100ms ease-in-out;
+}
+
+track:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+track:hover {
+  font-weight: bold;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+track > title,
+track > length {
+  display: table-cell;
+  padding: 0.25em;
+}
+
+track > title::before {
+  content: counter(track-number) ".";
+  counter-increment: track-number;
+  display: inline-block;
+  width: 2em;
+  text-align: right;
+  margin-right: 0.5ch;
+}
+
+track > length {
+  text-align: right;
+}

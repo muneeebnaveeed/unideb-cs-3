@@ -369,3 +369,158 @@ Working groups are composed of experts who can be:
 - **Internationalization Working Group**: https://www.w3.org/International/i18n-activity/i18n-wg/
 - **Web Applications Working Group**: https://www.w3.org/groups/wg/webapps/
 - **Web Machine Learning Working Group**: https://www.w3.org/groups/wg/webmachinelearning/
+
+## W3C Technical Reports Maturity Levels
+
+### Overview
+
+The W3C Technical Reports follow a specific maturity progression from initial draft to final recommendation.
+
+### Maturity Levels (1)
+
+#### Working Draft (WD)
+
+- **Definition**: A document that is published for review by the community (including W3C members), the public, and other technical organizations
+- **Note**: Some, but not all, Working Drafts are meant to advance to Recommendation
+
+#### Candidate Recommendation (CR)
+
+- **Definition**: A document that has already received wide review and is made available to gather implementation experience
+- **Two Forms**:
+  - **Candidate Recommendation Snapshot (CRS)**
+  - **Candidate Recommendation Draft (CRD)**
+
+#### Recommendation (REC)
+
+- **Definition**: A Web standard suitable for wide adoption
+
+#### Group Note (NOTE)
+
+- **Definition**: A document that is not intended to be a formal standard
+- **Purpose**: Published to document information other than technical specifications, such as use cases motivating a specification and best practices for its use
+
+### Maturity Levels (2)
+
+#### Recommendation Status Changes
+
+A recommendation may become superseded, obsolete, or rescinded:
+
+##### Superseded Recommendation
+
+- **Definition**: A specification that has been replaced by a newer version
+- **Example**: XHTML 1.0 The Extensible HyperText Markup Language (Second Edition)
+  - URL: https://www.w3.org/TR/xhtml1/
+
+##### Obsolete Recommendation
+
+- **Definition**: A specification that the W3C has determined lacks sufficient market relevance to continue recommending it for implementation
+- **Example**: The 'view-mode' Media Feature
+  - URL: https://www.w3.org/TR/view-mode/
+
+##### Rescinded Recommendation
+
+- **Definition**: A specification that W3C no longer endorses
+
+## Web Hypertext Application Technology Working Group (WHATWG)
+
+### Basic Information
+
+- **Full Name**: Web Hypertext Application Technology Working Group (WHATWG)
+- **Website**: https://whatwg.org/
+- **Definition**: A community committed to the evolution of the Web that develops standards implementable in web browsers
+- **Pronunciation**: what-wee-gee, what-wig, what-doubleyou-gee
+- **Reference**: How do you spell and pronounce WHATWG? https://whatwg.org/faq#spell-and-pronounce
+- **FAQ**: WHATWG – FAQ https://whatwg.org/faq
+
+### WHATWG Standards
+
+#### Key Standards
+
+- **DOM**: https://dom.spec.whatwg.org/
+- **Fullscreen API**: https://fullscreen.spec.whatwg.org/
+- **HTML**: https://html.spec.whatwg.org/
+- **URL**: https://url.spec.whatwg.org/
+- **WebSockets**: https://websockets.spec.whatwg.org/
+- **XMLHttpRequest**: https://xhr.spec.whatwg.org/
+- **Complete List**: WHATWG – Standards https://spec.whatwg.org/
+
+### WHATWG History and Operation
+
+#### History
+
+- **Founded**: 2004 by programmers of Apple, the Mozilla Foundation, and Opera Software
+- **Reason**: Concerned about the W3C's activity related to the development of HTML
+
+#### Operation
+
+- **Coordination**: Its operation is coordinated by the Steering Group
+- **Current Steering Group Members**: Apple, Google, Microsoft, and Mozilla
+
+#### Participation
+
+- **Access**: Participation is open to the public
+- **Reference**: WHATWG – Participation https://participate.whatwg.org/
+
+### WHATWG Development Model
+
+#### Living Standards
+
+- **Development Model**: The WHATWG develops specifications called "Living Standards" that are continuously updated
+- **Licensing**: Living standards are licensed under the CC BY 4.0 license
+  - URL: https://creativecommons.org/licenses/by/4.0/
+- **IPR Policy**: WHATWG – Intellectual Property Rights Policy https://whatwg.org/ipr-policy
+
+## Web Size Statistics
+
+### Current Web Scale
+
+- **Total Number of Indexed Web Pages**: ≈ 4 billion
+  - Reference: https://www.worldwidewebsize.com/
+- **Total Number of Web Sites**: > 1 billion
+  - Reference: Netcraft – August 2025 Web Server Survey https://www.netcraft.com/blog/august-2025-web-server-survey
+
+## Wayback Machine
+
+### Basic Information
+
+#### Overview
+
+- **Definition**: A service that allows people to visit archived versions of Web sites
+- **Website**: https://archive.org/web/
+- **Famous Phrase**: It makes the phrase "The internet doesn't forget" true
+- **Parent Project**: A sub-project of the Internet Archive project launched in 1996
+
+#### Scale
+
+- **Data Volume**: Contains over 2 petabytes of data compressed
+- **Web Captures**: 150+ billion web captures
+- **Coverage**: Content from every top-level domain, 200+ million web sites, and over 40 languages
+
+#### Further Information
+
+- General Information: https://help.archive.org/help/wayback-machine-general-information/
+- Usage Guide: https://help.archive.org/help/using-the-wayback-machine/
+- Web Page Definitions: https://blog.archive.org/2016/10/23/defining-web-pages-web-sites-and-web-captures/
+
+### Wayback Machine Operation
+
+#### Collection Scope
+
+- **Public Content**: Collects web pages that are publicly available
+- **Limitation**: When a dynamic page contains forms, JavaScript, or other elements that require interaction with the originating host, the archive will not contain the original site's functionality
+
+### Wayback Machine Examples
+
+#### W3C Website Archive
+
+- **Snapshots**: https://web.archive.org/web/*/https://www.w3.org/
+- **Specific Snapshot**: Snapshot saved on September 3, 2003 at 14:02:22
+  - URL: https://web.archive.org/web/20030903140222/https://www.w3.org/
+
+### Wayback Machine Features
+
+#### Save Page Now
+
+- **Feature**: Save Page Now https://web.archive.org/save/
+- **Purpose**: Capture a web page as it appears now for use as a trusted citation in the future
+- **Functionality**: Saves a specific web page one time only

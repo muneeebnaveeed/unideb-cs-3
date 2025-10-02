@@ -1,0 +1,79 @@
+book {
+  width: 80ch;
+  padding: 2em;
+  font-family: "Segoe UI", Inter, Arial, sans-serif;
+  line-height: 1.5;
+  margin: auto;
+}
+
+title,
+author,
+chapter,
+para {
+  display: block;
+}
+
+title,
+author {
+  text-align: center;
+  font-family: Anton, sans-serif;
+  font-variant: small-caps;
+}
+
+book > title,
+author {
+  font-weight: bold;
+}
+
+book > author,
+chapter > title {
+  font-size: 2em;
+}
+
+book > title {
+  font-size: 4em;
+}
+
+book {
+  counter-reset: chapter-number;
+}
+
+chapter {
+  counter-reset: footnote-number;
+}
+
+chapter > title::before {
+  content: "Chapter " counter(chapter-number, upper-roman) " - ";
+  counter-increment: chapter-number;
+}
+
+footnote {
+  font-size: 0;
+  vertical-align: super;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+footnote::before {
+  content: "[" counter(footnote-number) "]";
+  counter-increment: footnote-number;
+  font-size: small;
+}
+
+footnote:hover {
+  font-size: 1em;
+  vertical-align: baseline;
+}
+
+para {
+  text-indent: 2em;
+}
+
+title + para {
+  text-indent: 0;
+}
+
+title + para::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+}

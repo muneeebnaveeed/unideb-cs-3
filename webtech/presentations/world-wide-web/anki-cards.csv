@@ -373,3 +373,83 @@ What is the Internationalization Working Group URL?;https://www.w3.org/Internati
 What is the Web Applications Working Group URL?;https://www.w3.org/groups/wg/webapps/
 
 What is the Web Machine Learning Working Group URL?;https://www.w3.org/groups/wg/webmachinelearning/
+
+What is a Working Draft (WD) in W3C Technical Reports?;A Working Draft is a document that is published for review by the community (including W3C members), the public, and other technical organizations.
+
+Are all Working Drafts meant to advance to Recommendation?;No, some, but not all, Working Drafts are meant to advance to Recommendation.
+
+What is a Candidate Recommendation (CR) in W3C Technical Reports?;A Candidate Recommendation is a document that has already received wide review and is made available to gather implementation experience.
+
+What are the two forms of Candidate Recommendation?;Candidate Recommendation Snapshot (CRS) and Candidate Recommendation Draft (CRD).
+
+What is a Recommendation (REC) in W3C Technical Reports?;A Recommendation is a Web standard suitable for wide adoption.
+
+What is a Group Note (NOTE) in W3C Technical Reports?;A Group Note is a document that is not intended to be a formal standard.
+
+What is the purpose of a Group Note?;Group Notes are published to document information other than technical specifications, such as use cases motivating a specification and best practices for its use.
+
+What are the three possible status changes for a W3C Recommendation?;A recommendation may become superseded, obsolete, or rescinded.
+
+What is a Superseded Recommendation?;A Superseded Recommendation is a specification that has been replaced by a newer version.
+
+What is an example of a Superseded Recommendation?;XHTML 1.0 The Extensible HyperText Markup Language (Second Edition) is an example of a Superseded Recommendation.
+
+What is an Obsolete Recommendation?;An Obsolete Recommendation is a specification that the W3C has determined lacks sufficient market relevance to continue recommending it for implementation.
+
+What is an example of an Obsolete Recommendation?;The 'view-mode' Media Feature is an example of an Obsolete Recommendation.
+
+What is a Rescinded Recommendation?;A Rescinded Recommendation is a specification that W3C no longer endorses.
+
+What does WHATWG stand for?;WHATWG stands for Web Hypertext Application Technology Working Group.
+
+What is WHATWG?;WHATWG is a community committed to the evolution of the Web that develops standards implementable in web browsers.
+
+How is WHATWG pronounced?;WHATWG can be pronounced as what-wee-gee, what-wig, or what-doubleyou-gee.
+
+What is the WHATWG website?;The WHATWG website is https://whatwg.org/
+
+What are some key WHATWG standards?;Key WHATWG standards include DOM, Fullscreen API, HTML, URL, WebSockets, and XMLHttpRequest.
+
+When was WHATWG founded?;WHATWG was founded in 2004.
+
+Who founded WHATWG?;WHATWG was founded by programmers of Apple, the Mozilla Foundation, and Opera Software.
+
+Why was WHATWG founded?;WHATWG was founded because its founders were concerned about the W3C's activity related to the development of HTML.
+
+How is WHATWG operation coordinated?;WHATWG operation is coordinated by the Steering Group.
+
+Who are the current WHATWG Steering Group members?;The current WHATWG Steering Group members are Apple, Google, Microsoft, and Mozilla.
+
+Is WHATWG participation open to the public?;Yes, WHATWG participation is open to the public.
+
+What are Living Standards?;Living Standards are WHATWG specifications that are continuously updated.
+
+What license are WHATWG Living Standards under?;WHATWG Living Standards are licensed under the CC BY 4.0 license.
+
+What is the total number of indexed web pages?;The total number of indexed web pages is approximately 4 billion.
+
+What is the total number of web sites?;The total number of web sites is more than 1 billion.
+
+What is the Wayback Machine?;The Wayback Machine is a service that allows people to visit archived versions of Web sites.
+
+What is the Wayback Machine website?;The Wayback Machine website is https://archive.org/web/
+
+What famous phrase does the Wayback Machine make true?;The Wayback Machine makes the phrase "The internet doesn't forget" true.
+
+When was the Internet Archive project launched?;The Internet Archive project was launched in 1996.
+
+How much data does the Wayback Machine contain?;The Wayback Machine contains over 2 petabytes of data compressed.
+
+How many web captures does the Wayback Machine have?;The Wayback Machine has 150+ billion web captures.
+
+What type of content does the Wayback Machine collect?;The Wayback Machine collects web pages that are publicly available.
+
+What limitation does the Wayback Machine have with dynamic pages?;When a dynamic page contains forms, JavaScript, or other elements that require interaction with the originating host, the archive will not contain the original site's functionality.
+
+What is the Save Page Now feature?;Save Page Now is a Wayback Machine feature that captures a web page as it appears now for use as a trusted citation in the future.
+
+How many times can Save Page Now save a page?;Save Page Now saves a specific web page one time only.
+
+What is the Save Page Now URL?;The Save Page Now URL is https://web.archive.org/save/
+
+What coverage does the Wayback Machine have?;The Wayback Machine has content from every top-level domain, 200+ million web sites, and over 40 languages.
