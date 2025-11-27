@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+table.chessboard {
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+table.chessboard th,
+table.chessboard td {
+  width: 50px;
+  height: 50px;
+}
+table.chessboard tbody {
+  counter-reset: row-counter 9;
+}
+table.chessboard tbody tr {
+  counter-increment: row-counter -1;
+}
+table.chessboard tbody tr td::before {
+  display: block;
+  text-align: center;
+  font-size: 175%;
+}
+table.chessboard tbody tr:first-child td {
+  border-top: medium solid black;
+}
+table.chessboard tbody tr:last-child td {
+  border-bottom: medium solid black;
+}
+table.chessboard tbody tr:nth-child(odd) td:nth-child(odd) {
+  background-color: lightgray;
+}
+table.chessboard tbody tr:nth-child(even) td:nth-child(even) {
+  background-color: lightgray;
+}
+table.chessboard tbody tr:nth-child(even) td:nth-child(odd) {
+  background-color: white;
+}
+table.chessboard tbody tr:nth-child(odd) td:nth-child(even) {
+  background-color: white;
+}
+table.chessboard tbody tr td:first-of-type {
+  border-left: medium solid black;
+}
+table.chessboard tbody tr td:last-of-type {
+  border-right: medium solid black;
+}
+table.chessboard tbody tr th::before {
+  content: counter(row-counter);
+}
+table.chessboard tbody tr:nth-child(2) td::before {
+  content: "♟";
+}
+table.chessboard tbody tr:first-child td:is(:first-of-type, :last-of-type)::before {
+  content: "♜";
+}
+table.chessboard tbody tr:first-child td:is(:nth-of-type(2), :nth-of-type(7))::before {
+  content: "♞";
+}
+table.chessboard tbody tr:first-child td:is(:nth-of-type(3), :nth-of-type(6))::before {
+  content: "♝";
+}
+table.chessboard tbody tr:first-child td:nth-of-type(4)::before {
+  content: "♚";
+}
+table.chessboard tbody tr:first-child td:nth-of-type(5)::before {
+  content: "♛";
+}
+table.chessboard tbody tr:nth-child(7) td::before {
+  content: "♙";
+}
+table.chessboard tbody tr:last-child td:is(:first-of-type, :last-of-type)::before {
+  content: "♖";
+}
+table.chessboard tbody tr:last-child td:is(:nth-of-type(2), :nth-of-type(7))::before {
+  content: "♘";
+}
+table.chessboard tbody tr:last-child td:is(:nth-of-type(3), :nth-of-type(6))::before {
+  content: "♗";
+}
+table.chessboard tbody tr:last-child td:nth-of-type(4)::before {
+  content: "♕";
+}
+table.chessboard tbody tr:last-child td:nth-of-type(5)::before {
+  content: "♔";
+}
+table.chessboard thead,
+table.chessboard tfoot {
+  counter-reset: column-counter;
+}
+table.chessboard thead th,
+table.chessboard tfoot th {
+  counter-increment: column-counter;
+}
+table.chessboard thead th::before,
+table.chessboard tfoot th::before {
+  content: counter(column-counter, lower-alpha);
+}/*# sourceMappingURL=chessboard.css.map */

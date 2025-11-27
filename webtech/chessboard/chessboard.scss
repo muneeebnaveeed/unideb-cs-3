@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+table.chessboard {
+  box-sizing: border-box;
+  border-collapse: collapse;
+
+  th,
+  td {
+    width: 50px;
+    height: 50px;
+  }
+
+  tbody {
+    counter-reset: row-counter 9;
+
+    tr {
+      counter-increment: row-counter -1;
+
+      td::before {
+        display: block;
+        text-align: center;
+        font-size: 175%;
+      }
+
+      &:first-child {
+        td {
+          border-top: medium solid black;
+        }
+      }
+
+      &:last-child {
+        td {
+          border-bottom: medium solid black;
+        }
+      }
+
+      &:nth-child(odd) td:nth-child(odd) {
+        background-color: lightgray;
+      }
+
+      &:nth-child(even) td:nth-child(even) {
+        background-color: lightgray;
+      }
+
+      &:nth-child(even) td:nth-child(odd) {
+        background-color: white;
+      }
+
+      &:nth-child(odd) td:nth-child(even) {
+        background-color: white;
+      }
+
+      td {
+        &:first-of-type {
+          border-left: medium solid black;
+        }
+
+        &:last-of-type {
+          border-right: medium solid black;
+        }
+      }
+
+      th {
+        &::before {
+          content: counter(row-counter);
+        }
+      }
+
+      &:nth-child(2) td::before {
+        content: "\265F";
+      }
+
+      &:first-child {
+        td:is(:first-of-type, :last-of-type)::before {
+          content: "\265C";
+        }
+        td:is(:nth-of-type(2), :nth-of-type(7))::before {
+          content: "\265E";
+        }
+        td:is(:nth-of-type(3), :nth-of-type(6))::before {
+          content: "\265D";
+        }
+        td:nth-of-type(4)::before {
+          content: "\265A";
+        }
+        td:nth-of-type(5)::before {
+          content: "\265B";
+        }
+      }
+
+      &:nth-child(7) td::before {
+        content: "\2659";
+      }
+
+      &:last-child {
+        td:is(:first-of-type, :last-of-type)::before {
+          content: "\2656";
+        }
+        td:is(:nth-of-type(2), :nth-of-type(7))::before {
+          content: "\2658";
+        }
+        td:is(:nth-of-type(3), :nth-of-type(6))::before {
+          content: "\2657";
+        }
+        td:nth-of-type(4)::before {
+          content: "\2655";
+        }
+        td:nth-of-type(5)::before {
+          content: "\2654";
+        }
+      }
+    }
+  }
+
+  thead,
+  tfoot {
+    counter-reset: column-counter;
+
+    th {
+      counter-increment: column-counter;
+      &::before {
+        content: counter(column-counter, lower-alpha);
+      }
+    }
+  }
+}
