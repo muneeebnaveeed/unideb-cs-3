@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+main, footer {
+    text-align: center;
+}
+
+div.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    background-color: aliceblue;
+    padding: 3rem 0;
+    
+    & > img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 1rem;
+        box-shadow: 0 0 0.25rem darkblue;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
