@@ -1,0 +1,461 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+table.scrabble-board {
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+table.scrabble-board td,
+table.scrabble-board th {
+  width: 50px;
+  height: 50px;
+}
+table.scrabble-board td::before,
+table.scrabble-board th::before {
+  font-weight: 100;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+table.scrabble-board tbody {
+  counter-reset: row-counter;
+}
+table.scrabble-board tbody tr {
+  counter-increment: row-counter;
+}
+table.scrabble-board tbody tr td {
+  border: medium solid black;
+  background-color: green;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(1) {
+  background-color: red;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(1)::before {
+  content: "tripple world";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(8) {
+  background-color: red;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(8)::before {
+  content: "tripple world";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(15) {
+  background-color: red;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(15)::before {
+  content: "tripple world";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(1) {
+  background-color: red;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(1)::before {
+  content: "tripple world";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(15) {
+  background-color: red;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(15)::before {
+  content: "tripple world";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(1) {
+  background-color: red;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(1)::before {
+  content: "tripple world";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(8) {
+  background-color: red;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(8)::before {
+  content: "tripple world";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(15) {
+  background-color: red;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(15)::before {
+  content: "tripple world";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(4) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(4)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(12) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(1) td:nth-of-type(12)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(3) td:nth-of-type(7) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(3) td:nth-of-type(7)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(3) td:nth-of-type(9) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(3) td:nth-of-type(9)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(1) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(1)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(8) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(8)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(15) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(15)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(7) td:nth-of-type(3) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(7) td:nth-of-type(3)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(7) td:nth-of-type(7) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(7) td:nth-of-type(7)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(7) td:nth-of-type(9) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(7) td:nth-of-type(9)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(7) td:nth-of-type(13) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(7) td:nth-of-type(13)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(4) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(4)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(12) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(12)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(9) td:nth-of-type(3) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(9) td:nth-of-type(3)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(9) td:nth-of-type(7) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(9) td:nth-of-type(7)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(9) td:nth-of-type(9) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(9) td:nth-of-type(9)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(9) td:nth-of-type(13) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(9) td:nth-of-type(13)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(1) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(1)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(8) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(8)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(15) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(15)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(4) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(4)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(12) {
+  background-color: lightblue;
+}
+table.scrabble-board tbody tr:nth-child(15) td:nth-of-type(12)::before {
+  content: "double letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(2) td:nth-of-type(2) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(2) td:nth-of-type(2)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(2) td:nth-of-type(14) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(2) td:nth-of-type(14)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(3) td:nth-of-type(3) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(3) td:nth-of-type(3)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(3) td:nth-of-type(13) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(3) td:nth-of-type(13)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(4) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(4)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(12) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(4) td:nth-of-type(12)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(5) td:nth-of-type(5) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(5) td:nth-of-type(5)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(5) td:nth-of-type(11) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(5) td:nth-of-type(11)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(11) td:nth-of-type(5) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(11) td:nth-of-type(5)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(11) td:nth-of-type(11) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(11) td:nth-of-type(11)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(4) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(4)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(12) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(12) td:nth-of-type(12)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(13) td:nth-of-type(3) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(13) td:nth-of-type(3)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(13) td:nth-of-type(13) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(13) td:nth-of-type(13)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(14) td:nth-of-type(2) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(14) td:nth-of-type(2)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(14) td:nth-of-type(14) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(14) td:nth-of-type(14)::before {
+  content: "double word";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(2) td:nth-of-type(6) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(2) td:nth-of-type(6)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(2) td:nth-of-type(10) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(2) td:nth-of-type(10)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(6) td:nth-of-type(2) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(6) td:nth-of-type(2)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(6) td:nth-of-type(6) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(6) td:nth-of-type(6)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(6) td:nth-of-type(10) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(6) td:nth-of-type(10)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(6) td:nth-of-type(14) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(6) td:nth-of-type(14)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(10) td:nth-of-type(2) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(10) td:nth-of-type(2)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(10) td:nth-of-type(6) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(10) td:nth-of-type(6)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(10) td:nth-of-type(10) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(10) td:nth-of-type(10)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(10) td:nth-of-type(14) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(10) td:nth-of-type(14)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(14) td:nth-of-type(6) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(14) td:nth-of-type(6)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(14) td:nth-of-type(10) {
+  background-color: blue;
+}
+table.scrabble-board tbody tr:nth-child(14) td:nth-of-type(10)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(8) {
+  background-color: pink;
+}
+table.scrabble-board tbody tr:nth-child(8) td:nth-of-type(8)::before {
+  content: "triple letter";
+  font-size: 60%;
+}
+table.scrabble-board tbody tr th::before {
+  content: counter(row-counter, upper-alpha);
+}
+table.scrabble-board :is(thead, tfoot) {
+  counter-reset: column-counter;
+}
+table.scrabble-board :is(thead, tfoot) th {
+  counter-increment: column-counter;
+}
+table.scrabble-board :is(thead, tfoot) th::before {
+  content: counter(column-counter);
+}/*# sourceMappingURL=scrabble-2.css.map */

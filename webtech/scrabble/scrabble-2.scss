@@ -1,0 +1,145 @@
+@use "sass:list";
+
+$triple_word_positions: (1 1, 1 8, 1 15, 8 1, 8 15, 15 1, 15 8, 15 15);
+$double_letter_positions: (
+  1 4,
+  1 12,
+  3 7,
+  3 9,
+  4 1,
+  4 8,
+  4 15,
+  7 3,
+  7 7,
+  7 9,
+  7 13,
+  8 4,
+  8 12,
+  9 3,
+  9 7,
+  9 9,
+  9 13,
+  12 1,
+  12 8,
+  12 15,
+  15 4,
+  15 12
+);
+$double_word_positions: (
+  2 2,
+  2 14,
+  3 3,
+  3 13,
+  4 4,
+  4 12,
+  5 5,
+  5 11,
+
+  11 5,
+  11 11,
+  12 4,
+  12 12,
+  13 3,
+  13 13,
+  14 2,
+  14 14
+);
+
+$triple_letter_positions: (
+  2 6,
+  2 10,
+  6 2,
+  6 6,
+  6 10,
+  6 14,
+  10 2,
+  10 6,
+  10 10,
+  10 14,
+  14 6,
+  14 10
+);
+
+@mixin special-tile($position, $color, $content, $font-size: 60%) {
+  $row: list.nth($position, 1);
+  $column: list.nth($position, 2);
+  &:nth-child(#{$row}) td:nth-of-type(#{$column}) {
+    background-color: $color;
+    &::before {
+      content: $content;
+      font-size: $font-size;
+    }
+  }
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+table.scrabble-board {
+  border-collapse: collapse;
+  box-sizing: border-box;
+
+  td,
+  th {
+    width: 50px;
+    height: 50px;
+
+    &::before {
+      font-weight: 100;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  tbody {
+    counter-reset: row-counter;
+    tr {
+      counter-increment: row-counter;
+
+      td {
+        border: medium solid black;
+        background-color: green;
+      }
+
+      @each $position in $triple_word_positions {
+        @include special-tile($position, red, "tripple world");
+      }
+
+      @each $position in $double_letter_positions {
+        @include special-tile($position, lightblue, "double letter");
+      }
+
+      @each $position in $double_word_positions {
+        @include special-tile($position, pink, "double word");
+      }
+
+      @each $position in $triple_letter_positions {
+        @include special-tile($position, blue, "triple letter");
+      }
+
+      @include special-tile(8 8, pink, "triple letter");
+
+      th::before {
+        content: counter(row-counter, upper-alpha);
+      }
+    }
+  }
+
+  :is(thead, tfoot) {
+    counter-reset: column-counter;
+    th {
+      counter-increment: column-counter;
+      &::before {
+        content: counter(column-counter);
+      }
+    }
+  }
+}
